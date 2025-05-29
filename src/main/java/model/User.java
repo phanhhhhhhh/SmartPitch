@@ -12,11 +12,13 @@ public class User {
     private Date createdAt;
     private boolean isActive;
     private String googleID;
+    private String avatarUrl;
 
+    
     public User() {
     }
 
-    public User(int userID, String email, String passwordHash, String fullName, String phone, Date createdAt, boolean isActive, String googleID) {
+    public User(int userID, String email, String passwordHash, String fullName, String phone, Date createdAt, boolean isActive, String googleID, String avatarUrl) {
         this.userID = userID;
         this.email = email;
         this.passwordHash = passwordHash;
@@ -25,6 +27,7 @@ public class User {
         this.createdAt = createdAt;
         this.isActive = isActive;
         this.googleID = googleID;
+        this.avatarUrl = avatarUrl;
     }
 
     public int getUserID() {
@@ -90,4 +93,13 @@ public class User {
     public void setGoogleID(String googleID) {
         this.googleID = googleID;
     }
+
+    public String getAvatarUrl() {
+        return avatarUrl;
+    }
+
+    public void setAvatarUrl(String avatarUrl) {
+        this.avatarUrl = avatarUrl;
+    }
+    
 }
