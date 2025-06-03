@@ -35,7 +35,11 @@
             <form action="${pageContext.request.contextPath}/login" method="post">
                 <input type="email" name="email" placeholder="Email" required />
                 <input type="password" name="password" placeholder="Password" required />
+
                 <button type="submit">Đăng nhập</button>
+                <div style="text-align: right; margin-bottom: 10px;">
+                    <a href="${pageContext.request.contextPath}/account/forgotPassword.jsp" style="color: #5E3CF3; text-decoration: none; font-size: 14px;">Quên mật khẩu?</a>
+                </div>
             </form>
         </div>
         <div class="overlay-container">

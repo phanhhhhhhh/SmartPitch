@@ -14,6 +14,7 @@ constant\Iconstant.class
 model\Tournament.class
 model\User.class
 model\Notification.class
+controller\Stadium\StadiumListServlet.class
 controller\Authentication\LogoutServlet.class
 model\UserSettings.class
 controller\Authentication\OTPServlet.class
@@ -30,5 +31,6 @@ utils\EmailService.class
 model\TeamMember.class
 model\FoodItem.class
 com\mycompany\footballmanagement\JakartaRestConfiguration.class
+dao\StadiumDAO.class
 controller\Authentication\HttpServletRequest.class
 model\TimeSlot.class
