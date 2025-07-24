@@ -32,10 +32,11 @@ public class ChatBotServlet extends HttpServlet {
     private static final String API_KEY = "***REMOVED_API_KEY***";
 
     private static final String GEMINI_URL
-            = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="
+            = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="
             + API_KEY;
 
     @Override
+
     public void init() throws ServletException {
         ServletContext context = getServletContext();
         InputStream is = null;
