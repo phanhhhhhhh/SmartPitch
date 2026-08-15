@@ -6,4 +6,9 @@
 target/
 
 # === IGNORE SECRET CONFIGURATION FILE ===
-config.properties 
+config.properties
+*.properties
+!pom.properties
+.env
+.env.*
+!.env.example
